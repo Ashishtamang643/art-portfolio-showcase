@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign Up / Login</title>
-    <link rel="stylesheet" href="signup.css">
+    <link rel="stylesheet" href="signup1.css">
 </head>
 <body>
     <div class="container">
@@ -17,10 +17,10 @@
                 <label for="password">Password:</label>
                 <input type="password" id="password" name="password" required>
 
-                <label for="password">confirm Password:</label>
+                <label for="confirmpassword">confirm Password:</label>
                 <input type="password" id="confirmpasword" name="confirmpassword" required>
 
-                <label for="password">COntactNO:</label>
+                <label for="contactno">ContactNo:</label>
                 <input type="text" id="contactno" name="contactno" required>
 
                 
@@ -29,11 +29,7 @@
                     <option value="viewer">Viewer</option>
                     <option value="artist">Artist</option>
                 </select>
-                
-                
-                
 
-                
                 <div class="ifArtist">
         <label for="Bio">Bio:</label>
         <input type="text" id="Bio" name="Bio" >
